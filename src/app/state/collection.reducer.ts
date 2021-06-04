@@ -1,7 +1,7 @@
 import { addBook, removeBook } from './books.actions';
 import { createReducer, on } from '@ngrx/store';
 
-export const initialState: ReadonlyArray<string> = [];
+export const initialState: Array<string> = [];
 
 export const collectionReducer = createReducer(
   initialState,
