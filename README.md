@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # AngularRedux
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.13.
+=======
+# PracticaRedux
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+>>>>>>> 665515d05469cf37895efaf5772df3e2edd08918
 
 ## Development server
 

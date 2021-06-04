@@ -10,7 +10,11 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', async () => {
     await page.navigateTo();
+<<<<<<< HEAD
     expect(await page.getTitleText()).toEqual('angular-redux app is running!');
+=======
+    expect(await page.getTitleText()).toEqual('practica-redux app is running!');
+>>>>>>> 665515d05469cf37895efaf5772df3e2edd08918
   });
 
   afterEach(async () => {
