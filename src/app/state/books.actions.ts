@@ -1,5 +1,6 @@
 import { createAction, props } from '@ngrx/store';
 
+import { Book } from '../book-list/books.model';
 
 export const addBook = createAction(
   '[Book List] Add Book',
@@ -11,8 +12,8 @@ export const removeBook = createAction(
   props<{ bookId: string }>()
 );
 
-// TODO: asignarle un objeto a Book
+
 export const retrievedBookList = createAction(
   '[Book List/API] Retrieve Books Success',
-  props<{ Book:any }>()
+  props<{ book: Array<Book> }>()
 );
